@@ -1,0 +1,22 @@
+{
+  "name": "mongodb-migration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node app.js"
+  },
+  "author": "Jan Feuerbach",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "lodash": "^4.17.11",
+    "migrate-mongo": "^4.1.2",
+    "mongoose": "^5.3.11"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.6"
+  }
+}
